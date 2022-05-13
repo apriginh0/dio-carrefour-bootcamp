@@ -1,0 +1,5 @@
+Sabe identificar várias LPs, linguagens de marcação e conteúdo multimedia
+Hoje, os browsers fazem muito mais do que isso: existem plug-ins ou add-ons, que ajudam na naveção
+Cache e cookies
+
+Página estática x dinâmica

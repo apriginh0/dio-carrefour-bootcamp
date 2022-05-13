@@ -1,0 +1,11 @@
+Portas(do inglês:ports), na verdade seria uma referência a "porto" de navegação
+
+As portas por onde os dados transitarão, em geral são:
+20:FTP
+22:SSH
+25:SMTP
+53:DNS
+80:HTTP
+443:HTTPS
+
+MySQL usa a porta 3306

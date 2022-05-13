@@ -1,0 +1,15 @@
+Front-end
+"Parte da frente"
+Site, software, aplicativo, web service
+Interface, UI, UX
+Lógica de programação, HTML, CSS, jQuery/JS/AJAX, PHP, Bootstrap/outros frameworks
+
+Back-end
+"Parte de trás"
+Servidores, banco de dados
+"meio-de-campo" entre interface e bancos de dados, regras de negócios, validações
+MySQL, Oracle, protocolos de comunicação, PHP, Java, node.js
+
+Fullstack
+
+Profissional que sabe trabalhar em todas as camadas das tecnologias de desenvolvimento/execução de um app/sw

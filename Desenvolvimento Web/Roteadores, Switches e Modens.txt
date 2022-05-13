@@ -1,0 +1,12 @@
+Modem
+Modulator-demodulator
+Hardware que converte dados em um formato que possa ser trasmitido de um computador para o outro e lido por outro
+
+Roteador
+Distribui internet para um ou mais dispositivos de uma rede
+Pode fazer a comunicaçaão entre redes
+Pode ser "burro"
+
+Switch
+Distribui internet para um ou mais dispositivos de uma rede
+Criado para ser "inteligente"

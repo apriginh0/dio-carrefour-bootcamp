@@ -1,0 +1,46 @@
+404 - erro de página
+Algoritimo
+ALT - texto alternativo
+API
+Aplicação
+Back-end
+Biblioteca/dll
+Bootstrap
+Breakpoints
+Browser
+Bug
+Vache
+Código
+Controle de versão
+Cookies
+Debug
+Deploy
+Design adaptativo/responsivo
+DNS
+Documentação
+Domínio
+DPI
+Estrutura de dados
+Favicon
+Fontes
+Framework
+Front-end
+FTP
+Full-stack
+GitHub/SVN/CVS
+HTTP(S)
+IP
+Meta tags
+Método ágil
+Mobile
+MVC
+MVP
+MySQL
+Pixel
+Resolução
+Servidor
+Sistema operacional/SO
+Solução
+SSL
+UX
+WYSIWYG

@@ -1,0 +1,19 @@
+Protocolos de comunicação entre computadores em rede
+
+Transmission Control Protocol - Protocolo de Controle de Transmissão
+Internet Protocol
+
+Modelo de camadas(4):
+Física{ex:placa de rede}
+Rede{ex:IP}
+Transporte{ex:TCP, UDP}
+Aplicação{ex: FTP(arquivo), SMTP(email), HTTP(site)}
+
+UDP{ Rápido
+     Não confiável
+     Carro do ovo
+     Livestream }
+TCP{ Voltado à conexão
+     Handshake
+     Integridade, ordem de dados
+     Aplicativo de mensagens de texto }

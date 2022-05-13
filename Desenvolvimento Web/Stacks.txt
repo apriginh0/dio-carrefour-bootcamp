@@ -1,0 +1,15 @@
+Pilhas de tecnologia
+Conjunto de softwares necessários e suficientes para executar um aplicativo/programa
+Linguagens de programação
+Ambientes e ferramentas de interação com o app/sw
+Capacidade e limitação de performace
+Pontos forte e fracos do app/sw
+
+Importância
+
+Os líderes de projetos precisam das informações das equives de desenvolvimento
+Os desenvolvedores precisam saber as limitações e capacidade das ferramentas e ambientes que têm disponíveis
+Sistemas, bancos de dados, linguagens de programação, protocolos de comunicação
+Estratégias de negócios
+Maturidade
+Cntratações, planos de mitigações de risco, aumento da capacidade, uso dos dados

@@ -1,0 +1,8 @@
+Conexão ponto-a-ponto
+
+classe | potência máx | alcance   |   versão | taxa de transmissão
+   1       100mW         100m     |    1.2         1Mbps
+   2       2,5mW         10m      |  2.0+EDR       3Mbps    
+   3       1mW           1m       |    3.0         24Mbps
+                                  |    4.0         25Mbps
+                                  |    5.0         50Mbps
