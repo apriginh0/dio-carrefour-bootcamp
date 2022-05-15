@@ -1,0 +1,20 @@
+@media screen and (max-width:700px){
+    header .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .botao{
+        margin-top: 5px;
+        width: 300px;
+    }
+    .filme-principal{
+        background: linear-gradient(rgba(0,0,0,.50),rgba(0, 0, 0, 0.205)100%), url(/img/mini-h-o-c.png);
+    }
+}
+
+@media screen and (min-width:1000px){
+    .descricao{
+        width: 50%;
+    }
+}
