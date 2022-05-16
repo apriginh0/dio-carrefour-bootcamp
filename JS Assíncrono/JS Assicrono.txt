@@ -1,0 +1,29 @@
+Objetivo do Curso
+
+1º Explicar o conceito de assincronicidade
+
+Assincrono é algo quem não ocorre ou não se efetiva ao mesmo tempo
+JS de modo padrão roda de maneira síncrona
+
+2º Apresentar Promises
+
+É um objeto de processamento assícrono. Inicialmente, seu valor é desconhecido. Ela pode ser resolvida ou rejeitada.
+Ela tem 3 estados: Pending, Fulfilled, Rejected
+Async/await - Funções assíncronas precisam dessas duas palavras chave.
+Async define funções assíncronas e vai ser necessária para usar await, quando vai se resolver uma Promise.
+await é criada para lidar especificamente com Promises, ela vai parar o código e esperar a Promise resolver.
+Pode usar try e catch
+await é um operador especifico para lida com Promises
+
+3º Ensinar como faze requisições de APIs
+
+Application Programming Interface - Uma API é uma forma de intermediar os resultado do back-end com o que é apresentado no front-end.
+Você consegue acessá-la por meio de URLs
+É muito comum que APIs retornem seus dados no formato .json, portanto precisamos tratar esses dados quando os recebermos.
+
+método fetch - consumindo APIs
+
+fetch vai retornar uma Promise, podendo usar o encadeamento com o .then, e sendo necessário usar o await.
+Sendo necessário converter a resposta para .json, caso venha como string, para poder usar dentro do JS.
+
+operações no banco(POST,GET,PUT,DELETE,etc)
