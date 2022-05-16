@@ -1,0 +1,9 @@
+1º Apresentar o objeto Error do ECMAScript
+
+É um erro que acontece em tempo de execução. Percebe que há algo errado, algo não foi declarado, enquanto está rodando.
+É composto por uma mensagem, nome do erro, a linha e o Call Stack(pilha de chamadas).
+
+2º Apresentar o DOMException
+
+São erros relacionados ao código que está sendo roda em uma página da web.
+Erros referentes à estrutura da sua árvore de elementos dentro de uma página da web.

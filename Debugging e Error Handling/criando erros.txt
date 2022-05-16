@@ -1,0 +1,16 @@
+Explicar como manipular o objeto Error
+
+new Error(message, fileName, lineNumber)
+Todos os parâmetros são opcionais, mas fileName e lineNumber não são padrão, ou seja, pode não funcionar em alguns browser.
+const MeuErro = new Error('Mensagem Onválida');
+MeuErro.name = 'InvalidMessage'; Dá um nome ao erro
+throw MeuErro;
+Resultado é a mensagem e a linha em questão
+
+meuErro.name
+"InvalidMessage"
+MeuErro.Stack
+"InvalidMessage: Mensagem inválida\n  at <anonymous>:3:17"
+MeuErro
+InvalidMessage: Menssagem inválida
+         at <anonymous>:3:17

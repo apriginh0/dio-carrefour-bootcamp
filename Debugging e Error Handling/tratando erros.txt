@@ -1,0 +1,9 @@
+1º Explicar a diferença entre "throw" e "return"
+
+O "return" apenas retorna a mensagem, enquanto "throw" retorna a mensagem dentro da informação de erro.
+
+2º Apresentar a implementação da declaração try/catch
+
+try
+catch(e)
+finally
