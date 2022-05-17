@@ -1,0 +1,32 @@
+Objetivo
+1º Explicar o conceito de Orientação a Objetos
+2ºApresentar seus principais pilares
+3ºExplicar como o JS lida com esse paradigma
+
+Paradigmas da programação: imperativo e declarativo
+imperativo foca em como resolver os problemas (pocedural, object oriented, parallel processing)
+declarativo, em como vai ser feito (logic, functional[dataflow], database)
+
+Os programas são "objetos" quem possuem uma série de propriedades.
+Pilares: Herança, Polimorfismo, Encapsulamento, Abstração
+Abstração: Processo mental que consiste em isolar um aspecto determinado de um estado de coisas
+relativamente complexo, a fim de simplificar a sua avaliação, classsificação ou para permitir
+a comunicação do mesmo.
+Herança: objeto filho herda propriedades e metodos do pai.
+Encapsulamento: Cada classe tem propriedades e metodos independentes do restante do código.
+Polimorfismo: objetos podem herdar a mesma classe pai, mas se comportar de forma diferente
+quando invocamos seus métodos.
+
+JS Orientado a Obejtos
+Protótipos: Todos os objetos em JavaScript herdam propriedades e métodos de um prototype.
+O objeto Object.prototype está no topo desta cadeia.
+
+Classes no JS
+Syntatic sugar: uma sintaxe feita para facilitar a escrita.
+JavaScript não possui classes nativamente. Todas as classes são objetos e herança se dá por protótipos.
+
+
+
+
+
+
