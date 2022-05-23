@@ -1,0 +1,13 @@
+React é uma biblioteca JS para criar interfaces de usuários.
+Criado em 2011 por Jordan Walke, no Facebook;
+Baseado no XHP, um framework para criação de HTML no PHP;
+Utilizado no mural de notícias das ferramentas(facebook).
+2012 - Utilizado no Instagram;
+2013 - Liberação OpenSource na JSConf US;
+2015 - React Native;
+2015 - UWP (Universal Windows Platform);
+
+React é uma linguagem declarativa. Está preocupado apenas com o que é exibido na interface.
+É baseado em components;
+
+React Create App; React Scripts; Task Runners e Bundler Sizers;

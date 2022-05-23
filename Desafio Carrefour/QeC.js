@@ -11,5 +11,3 @@ for (let i = 1; i <= limit; i++) {
   
   print(i +" "+ X +" "+ Y);
 }
-
-Qualquer coisa
