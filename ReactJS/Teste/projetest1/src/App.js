@@ -1,5 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
+import Button from './Button';
+
+function soma(a, b) {
+  alert(a + b)
+}
 
 function App() {
   return (
@@ -7,8 +12,9 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Hello, hello, World!
         </p>
+        <Button onClick= {( ) => soma(10, 20)} name="Diego Aprigio" />
         <a
           className="App-link"
           href="https://reactjs.org"
