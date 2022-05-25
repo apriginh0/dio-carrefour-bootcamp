@@ -32,3 +32,13 @@ que faz ter ganho de performace e evita uma série de erros.
 Componentes e Props
 
 Função e Classe; Props; Composição de Componentes; Extração de Componentes
+
+Estado e Ciclo de Vida
+
+Nenhum componente pai ou filho devem saber se outro componente possui estado ou não.
+O estado é apenas local ao componente e caso seja necessário algum atributo para outro então
+é feito via props.
+
+Ecossistema
+
+React Router; Redux; Material UI; Ant-Design; Storybook; Gatsby; Jest; React i18n Next.

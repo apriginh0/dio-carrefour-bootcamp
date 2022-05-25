@@ -1,0 +1,22 @@
+Integrando webpack ao desenvolvimento com ReactJS
+
+webpack é um module bundler(um empacotador de módulos para aplicações JS)
+Gerar bundler que será utilizado no HTML, em ES5. link oficial: https://webpack.js.org/
+webpack suporte: Fontes; CSS; Imagens; HTML; JS; Plugins.
+Principais conceitos do webpack:
+Entry - Utilizando grafo, o webpack precisa de um ponto de entrada para buscar todos os módulos e
+dependências.
+Output - É pra determinar quais são os bundlers que o webpack irá emitir.
+Loaders - 
+É para permitir que o webpack gerencie arquivos que não são JS.
+Pliguins - Podem ser utilizados para otimização de pacotes, minificação, injeção de scripts e etc.
+Mode - Utilizados para abordagem de configuração zero. É possivel configurar módulos como
+production, development ou none.
+Production trás otimizações internas;
+Development é executado com três pluguins: UglifyPlugin, ModuleConcatenationPlugin e
+NoEmitOnErrorsPlugin.
+
+Criação do arquivo webpack.config.js
+npm i -D webpack webpack-cli
+"build": "webpack --mode production"
+npm i @babel/core babel-loader @babel/preset-env @babel/preset-react --save-dev
