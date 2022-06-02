@@ -2,7 +2,7 @@ Integrando webpack ao desenvolvimento com ReactJS
 
 webpack é um module bundler(um empacotador de módulos para aplicações JS)
 Gerar bundler que será utilizado no HTML, em ES5. link oficial: https://webpack.js.org/
-webpack suporte: Fontes; CSS; Imagens; HTML; JS; Plugins.
+webpack suporta: Fontes; CSS; Imagens; HTML; JS; Plugins.
 Principais conceitos do webpack:
 Entry - Utilizando grafo, o webpack precisa de um ponto de entrada para buscar todos os módulos e
 dependências.

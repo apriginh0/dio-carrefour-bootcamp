@@ -26,7 +26,7 @@ Dentro do JSX, o contéudo JS precisa estar dentro de { }.
 
 Renderização
 
-React pensa em como a interface deve estar a cada momento ao invés de alterá-la como o tempo, o 
+React pensa em como a interface deve estar a cada momento ao invés de alterá-la com o tempo, o 
 que faz ter ganho de performace e evita uma série de erros.
 
 Componentes e Props

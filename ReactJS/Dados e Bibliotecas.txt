@@ -1,0 +1,60 @@
+Renderização Condicional
+Em React, você pode criar componentes distintos que encapsulam o comportamente que precisa.
+Então, você pode renderizar apenas alguns dos elementos, dependendo do estado da sua aplicação.
+Variáveis de elementos:
+If inline com o Operador Lógico &&:
+const hasCustomer = true
+{hasCustomer && (
+   <div>
+    Se existir o hasCustomer, ou seja, se true, então vai mostrar o botão
+    {buttonA}
+  </div>
+)}
+If-Else inline com Operador Condicional: {hasCustomer ? renderShow( ) : renderAdd( )}
+Evitando que um Componente seja Renderizado:
+const showCustomer = ( ) => {
+ if (!hasCustomer) return null
+ return (
+   <div>
+   <h1> Nome do Cliente: Diego Aprigio</h1>
+  </div>
+ )
+}
+return (<div> {showCustomer( )}</div>)
+LISTAS E CHAVES
+
+renderizando múltiplos componentes: 
+const customer = [ id: 1, name: 'Diego Aprigio']
+const App = ( ) => {
+  const renderCustomers = (customer, index) => {
+    return ( <li key={index}>(customer.name)</li>)
+  }
+  return (
+    <div>
+      <p>blablalbla</p>
+      <div>
+        <ul> {listCustomer.map(renderCustomers)} </ul>
+      </div>
+    </div>
+  )
+}
+Componente de Lista Básico:
+Chaves:
+Extraindo Componentes com Chaves:
+Chaves devem ser Únicas apenas entre elementos irmãos:
+<li key={`customer.${customer.id}`}>(customer.name)</li>
+MANIPULANDO EVENTOS
+
+Manipular eventos em elementos React é muito semelhante a manipular eventos em elementos do
+DOM. Existem algumas diferenças sintáticas:
+Eventos em React são nomeados usando camelCase ao invés de letras minúsculas.
+Com o JSX você passa uma função como manipulador de eventos ao invés de um texto.
+const { value } = e.target *
+PENSANDO DO JEITO REACT
+
+Comece com um mock
+Separe a UI em uma hierarquia de componentes
+Crie uma versão estática em React
+Identifique a representação mínima(mas completa) do State da UI
+Identifique onde o State deve ficar
+Adicione o fluxo de dados inverso

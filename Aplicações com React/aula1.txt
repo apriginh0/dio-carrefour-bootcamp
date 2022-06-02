@@ -1,0 +1,37 @@
+Desenvolvimento de aplicações para internet com ReactJS
+parte1: CSS components e elements - Maneiras de estilização = inline, classes, css in JS.
+inline: const divStyle = {
+  cor: 'blue',
+  backgroundImage: 'url(' + imgUrl + ')'
+};
+function HelloWorldComponent( ) {
+  return <div style={divStyle}>Hello World!</div>;
+}
+ou
+function App( ) {
+  return (
+    <HelloWorld style={{ marginTop: '10px'}} />
+  )
+}
+Prós: Maneira mais prática e direta, Ajustes Rápidos, Testes de Estilo
+Contras: Difícil manutenção
+
+classes:            .div-style { color: blue; background: url('https://blablabla'); }
+import './HelloWorldComponent.css';
+function HelloWorld( ) {
+  return <div className="div-style">HelloWorld!</div>;
+}
+Em JSX, define-se classes pelo atributo className = Maneira mais prática e direta
+Contras: Difícil manutenção, Pouca flexibilidade, Conflitos com nomes
+
+CSS in JS: npm install --save styled-components
+const DivStyle = styled.div'
+color: blue;
+background: url('${props => props.imageUrl}');
+';
+function HelloWorldComponent ( ) {
+  const url = 'https://blablabla';
+  return <DivStyle imageUrl={url}>Hello World</DivStyle>;
+}
+Manutenção = Facildiade para remover CSS, Estilos dinâmicos, Performance, Injeção automática
+de prefixos vendor

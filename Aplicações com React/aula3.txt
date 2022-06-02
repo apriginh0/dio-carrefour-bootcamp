@@ -1,0 +1,11 @@
+FORMULÁRIOS
+
+Formulários mantêm um estado interno
+<form>
+  <label>
+   Nome:
+  </label>
+  <input type="submit" value="Enviar" />
+</form>
+Em HTML, <input>, <textarea> e <select> têm um estado interno
+Em React, podemos controlar o estado: state, setState
