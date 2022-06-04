@@ -1,0 +1,39 @@
+TDD e BDD com JEST
+Test-Driven Development
+Antecipar erros a nível de desenvolvimento
+    Teste escrito antes da funcionalidade
+Não descarta a presença de um tester
+TDD: Teste unitário e Teste End-to-End (E2E)
+bibliotecas: jest, react-testing-library, shallow, enzyme, chai, mocha, selenium, puppeteer
+yarn add --dev @testing-library/react
+yarn add --dev @testing-library/jest-dom/extend-expect /* para extensoes de comparação no jest */
+import React from 'react';
+import Basic from './Basic';
+import { render } from '@testing-library/react'
+import '@testing-library/jest-dom/extend-expect';
+
+describe('Testando Basic', ( ) => {
+  it('O componente Basic deve renderizar corretamente', ( ) => {
+    const { baseElement } = render(<Basic name="Lilith" />);
+    expect(baseElement).toHaveTextContent('Meu nome é Lilith');
+  })
+})
+BDD: Behavior-Driven Development
+Teste de especificação
+    Une especificação, teste automatizado e premissa de teste (documento de teste)
+Sintaxe de esteps para definir cenários
+Descreve cada funcionalidade por feature (caso de uso)
+bibliotecas: jest-cucumber e chai
+yarn add --dev jest-cucumber
+
+
+DEBUGGING
+Depuração é o processo de encontrar e reduzir defeitos em um software
+Ferramentas: Chrome Devtools, Redux Devtools, React Devtools
+
+TRATAMENTO DE ERROS
+Resiliência de SW 
+Segurança
+» Tratamento em componentEs
+      º Em JS usamos PropTypes
+      º Podemos usar linguagens tipadas como TypeScript, definindo interfaces

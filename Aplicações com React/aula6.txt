@@ -1,0 +1,53 @@
+Rest HTTP com React
+
+APIs HTTP: Servem para conectar a um ou mais servidores HTTP
+       GET - listagem, POST - criação, DELETE - apagar, PUT - alteração
+Fetch API - Uma biblioteca nativa do browser, oferece uma alternativa ao XMLHttpRequest() e
+jQuery.ajax(), suporte a Service Workers
+Não envia nem recebe cookies(precisa definir a opção credentials), nãp rejeita o status do erro HTTP
+Axios - Lib de HTTP API, Cross-browser, Pode monitorar o progresso de um request, Melhor
+tratamento de erros, Melhor teste. Instalar com yarn add axios.
+IMUTABILIDADE E REDUX
+
+Uma vez criada, uma coleção não pode ser alterada.
+Novas coleções podem ser criadas a partir d euma coleção anterior e uma mutação(setter) como um conjunto
+Nova coleções são criadas usando o máximo possível da estrutura original, reduzindo a cópia e
+aumentando a performance. /* Comparações Shallow ou comparações rasas */
+shallowCompare
+Benefícios: Performance, programação mais simples, Debugging mais simples
+Se você quer performance em React, use dados imutáveis.
+Você consegue usando o shouldComponentUpdate ou React.PureComponent.
+Renderização só ocorre se houver mudança de estado(state) ou seja, props.
+Immutable.RxJS
+
+Problema: O PureComponent vai fazer um comparação rasa entre os valores antigos e novos de 
+this.props.words
+                 O código muda words no handleClick do WorkAdder mas, mesmo mudando as palavras
+                 elas serão consideradas como iguais.
+Solução: Evitar mutar valores ou estado
+Ou usando biblioteca que fornece coleções persistentes e imutáveis, que permite detecção
+de alterações nos objetos. A biblioteca mais famosa é Immutable.js
+Outras libs: Immer, Immutability-helper, Seamless-immutable
+
+Imutabilidade e Redux
+Imutabilidade é pré requisito no Redux
+    Redux e React-Redux utilizam comparações rasa
+    Manipulação de dados mais segura
+    Time-travel debugging
+Os reducers dividem o objeto de estados em domínios por uma chave;
+combineReducers checa mudanças usando comparação rasa
+    Fazem a interação nos reducers
+    Criam um novo objeto de estados a partir dos estados retornados por cada reducer
+Connect gera componentes que fazem comparação rasa com o estado root
+Retornam o valor para a função mapStateToProps, verificando aqueles que precisam de uma
+operação de re-render
+
+REDUX + REST
+Suponha um sistema de notificações ou um sistema de logging
+Você precisa manter a sincronia, independente da tela onde estiver
+Uma maneira de resolver fácil seria armazenar os dados do serviço no Redux.
+Redux Minddlewares:
+Provê uma camada entre o disparo de uma ação e o momento que ela atinge o reducer
+Utilizados para uma variedade de funções, entre elas chamadas de APIs de serviço
+Os mais usados são redux-thunk e redux-saga
+yarn add redux-thunk

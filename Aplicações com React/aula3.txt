@@ -9,3 +9,11 @@ Formulários mantêm um estado interno
 </form>
 Em HTML, <input>, <textarea> e <select> têm um estado interno
 Em React, podemos controlar o estado: state, setState
+
+COMPONENT CONTROLADO
+Tanto select, input ou textarea aceitam um atributo value
+Podemos mudar esse valor usando o atributo onChange
+
+COMPONENT NÃO-CONTROLADO
+A tag input é read-only
+bibliotecas: formik, redux-forms

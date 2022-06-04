@@ -1,0 +1,18 @@
+INTRODUÇÃO AO FLUX
+Flux foi criado pelo facebook e é um padrão de projeto para tráfego de dados de maneira unidirecional.
+Action: é como um telégrafo, ele formata a mensagem a ser enviada;
+Dispatcher: é como um telefonista, ele sabe todos os callbaks para diferentes Stores.
+Store: é como um gerente super controlador, ele guarda a informação e todas as alterações têm
+que ser feitas por ele mesmo, mais ninguém.
+View: é como um gerente intermediário(middleware) que recebe as nitificações da store e passa
+os dados para as visões abaixo dela.
+Arquitetura Flux tem diversas implementações:
+Redux(mais popular)
+Reflux
+Mobx
+Vuex(baseado em Redux e Elm)
+NgRx/store(baseada em Redux e RxJS)
+BIBLIOTECAS BASEADAS EM FLUX
+
+Servem para comunicação entre components, centralizam a informação
+"Flux libaries are like glasses: you'll know when you need them." Dan Abramov
