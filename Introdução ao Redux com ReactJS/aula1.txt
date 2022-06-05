@@ -1,0 +1,44 @@
+DESMITIFICANDO REDUX AO REACT
+React = A JavaScript library for building user interfaces, ser declarativo, baseado em componentes,
+aprenda uma vez e escreva em qualquer lugar
+Redux = A predictable State Container for JS Apps, também pode ser usado para outras linguagens
+State Containers = São blocos da sua aplicação que armazenam um estado de forma centralizada,
+que pode ser lido por outros blocos da aplicação.
+Ele é prevísivel, centralizado, debugável, flexível
+É inspirado em Flux e ELM
+Influência da linguagem ELM: Imutablidade, API declarativa, Operações determinísticas,
+controlar side-effects (quando não se pode evitá-los)
+Influência da arquitetura flux: view => actions => dispatcher => store(s)
+actions  =>  reducer  =>  store
+   ^=====     view    <====\\
+
+Os 3 princípios:
+Uma única fonte de verdade - store
+Estado disponível apenas para leitura - reducer
+Mudanças no estado são feitas apenas por funções puras - actions
+Não modificam o estado, retornam um objeto novo - f(x) = y
+reducer: store.getState( )
+store: createStore( ) - const store = createStore( counterReducer );
+actions: store.dispatch( ) - store.dispatch({ type: 'counter/incremented' })
+view: connect (react-redux)
+    º selector
+Middlewares: It provides a third-party extension point between dispatching an action, and the
+moment it reaches the reducer 
+type MiddlewaresAPI = { dispatch: Dispatch, getState: ( ) => State }
+type Middlewares = (api: MiddlewaresAPI) => (next: Dispatch) => Dispatch
+
+const store = createStore(reducer, {}, applyMiddleware(logger))  {} = initial State
+type StoreEnhancer = (next: StoreCreator) => StoreCreator
+Usando provider como pai de <App />, dizendo qual a Store, é possível acessar em qualquer lugar
+da aplicação, através do connect
+
+instalar com: npx create-react-app my-app --template redux
+/* Esse é um template oficial do redux e já vem com o @reduxjs/toolkit */
+
+ConfigureStore (redux-thunk + Redux DevTools Extension)
+redux-thunk permite actions assíncronas
+createReducer (immer.js)
+createAction
+createSlice (reduce + actions)
+createSelector (reselect)
+
