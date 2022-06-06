@@ -1,0 +1,25 @@
+Gerenciando a sotre do Redux
+
+npm install --save redux-devtools-extension
+
+MELHORES PRÁTICAS
+
+Redux Style Guide:
+priority A - Essential, priority B - Strongly Recommended, priority C - Recommended
+Essential: Do not mutate State, Reducer must not have side effects, Do not put non-serializable
+values in State or Actions, Only one Redux Store Per App
+
+DESIGN PATTERNS
+
+Ducks Pattern: To me, it makes more sense for these pieces to be bundled together in an isolated
+module that self contained, and can even be packaged easily into a library
+1 MUST export default a function called reducer()
+2 MUST export its action creators as functions
+3 MUST have action types in the form 'npm-module-or-app/reducer/ACTION_TYPE'
+4 MAY export its action types as UPPER_SNAKE_CASE, if an external reducer needs to listen
+for them, or if it is a published reusable library
+Higher-Order-Reducers:
+Component Containers:
+
+HOOKS EVERYWHERE
+
