@@ -1,0 +1,209 @@
+O que é Java?
+"Java é uma linguagem de programação e plataforma computacional lançada pela
+primeira vez pela Sun Microsystems, em 1995". Oracle
+
+Características:
+Compilada
+Interpretada
+Fortemente tipada
+Linguagem de alto nível
+Executada em uma máquina virtual - JVM(Java Vitual Machine)
+
+Source File(.java) == compilação ==> Bytecodes(.class) == interpretação ==> Java
+
+O que é JVM?
+"JVM é uma máquina virtual responsável pela tradução dos ByteCodes oriundos do
+compilador Javac(Java Compiler) em código de máquina de cada sistem operacional"
+
+Características:
+Execução de pilhas
+Gerenciamento de memória
+Gerenciamento de threads
+Otimização de código (Compilação JIT - Just In Time)
+Garbage Collector(GC)
+
+Quais as diferenças entre JRE e JDK?
+
+JRE(Java Runtime Environment) - Responsável por executar os programas em Java
+JDK(Java Development Kit) - utilitário que permite o desenvolvimento de programas
+em Java. Já possui a JVM para executar os programas.
+
+Quais os tipos de plataformas Java?
+
+Java SE(Java Standard Edition) - contém as especificacões do Java e pode ser implementado
+por diversas empresas como Oracle, OpenJDK, Azul Zulu, etc.
+Java EE(Java Enterprise Edition) - contém todas as especificacões do Java SE e um número 
+de programas úteis para que executem em servidores. Renomeado Jakarta EE, em 2019.
+Java ME(Java Micro Edition) - contém especificacões para desenvolvimento de programas
+para dispositivos pequenos, como celulares, PDAs, entre outros.
+
+Quais as implementações Java SE?
+OpenJDK
+Oracle JDK
+AdoptOpenJDK
+Amazon Corretto
+GraalVM CE
+Azul Zulu
+
+Instalar JVM
+sudo apt install curl
+curl - sL https://github.com/shyiko/jabba/raw/master/install.sh | bash && . ~/.jabba/jabba.sh
+
+Utilizando Java Version Manager:
+jabba ls-remote
+jabba instal openjdk@1.11
+jabba use openjdk@1.11
+java -version
+
+Criando classe principal (src/com/dio/MyFirstProgram.java):
+package com.dio;
+import com.dio.base.Order;
+public class MyFirstProgram {
+  public static void main(String[] args) {
+    final Order order = new Order("code1234");
+    System.out.println(order);
+  }
+}
+executar entrando em: cd target/
+java com.dio.MyFirstProgram
+
+Palavras reservadas não podem ser usadas para nomes de classes, atributos ou métodos
+DECLARAÇÃO DE CLASSES
+estrutura básica de uma classe:
+public[modificador de acesso] class[palavra reservada] Order[objeto: nome da palavra] {
+  // atributos
+  private final String[tipo do atributo ou variável] code[nome do tipo];
+  private final BigDecimal totalValue;
+   // métodos
+  public BigDecimal[tipo de retorno] calculateFee[nome do método](){
+  }
+}
+estrutura completa de uma classe:
+package com.dio.base; [definição do pacote em que a classe se encontra]
+import java.math.BigDecimal; [import, quando precisa usar outra classe, de outro pacote]
+public class Order {
+  private final String code;
+  private final BigDecimal totalValue;
+
+  public Order(String code, BigDecimal totalValue) {
+    this.code = code;
+    this.totalValue = totalValue;
+  }
+  public BigDecimal calculateFee() {
+    return this.totalValue.multiply(new BigDecimal("0.99"));
+  }
+}
+MODIFICADORES DE ACESSO
+tipos de modificadores:
+public - Qualquer classe de qualquer pacote poderá acessar o atributo ou método
+protected - Qualquer classe definida no mesmo pacote ou subclasse
+Sem modificador(void) - Apenas classes definidas no mesmo pacote
+private - Apenas a própria classe
+
+MÉTODOS
+O que são?
+métodos são funções que definem o comportamento d euma classe
+tipos:
+Métodos contrutores - Definem como uma classe será instanciada "construída"
+Métodos comuns - Definem comportamentos que pode ou não estar atribuídos às regras de negócio
+ex: calcular taxas de um pedido, etc.
+
+ETRUTURA DE CONDIÇÃO
+O que é?
+É responsável por fazer o desvio do fluxo de execução do código de acordo com uma dada condição
+tipos:
+if - else
+switch - case
+
+ESTRUTURAS DE REPETIÇÃO
+O que é?
+É responsável por executar repetitivamente uma instrução ou
+um bloco de instruções até uma condição estar sendo satisfeita.
+tipos:
+while
+do - while
+for(int i = 0; i < items.length; i++)
+enhanced for(String i : items)
+
+Comentáros em linha = //
+Comentários em bloco =   /** 
+                                            *Comentários  */
+
+JAVADOC
+O que é?
+É uma ferramenta para documentação no formato HTML que
+se baseia nos Comentários do código-fonte
+Os comentários precisam conter tags para que a documentação fique legível
+Tags javadoc:
+@author - Especifica o autor da classe ou do método
+@deprecated - Identifica classes ou métodos obsoletos
+@link - Possibilita a definição de um link para outro documento local ou remoto através de um URL
+@param - Descrevem um parâmetro que será passado a um método
+@ return - Descreve qual o tipo de rotorno de um método
+@see - Asssocia a outras classes ou métodos
+@ since - Descreve desde quando uma classe ou método foi adicionado
+@throws - Descreve os tipos de exceções que pode ser lançadas por um método
+@version - Descreve a versão da classe ou método
+
+/**
+* Representa um pedido
+*
+* @author Diego Aprigio
+* @version 1.0.0
+* @see BigDecimal(classe/atributo que vai ajudar a entender o funcionamento da classe pertencente)
+* @since Resease 1.0.0
+*/
+/**
+* Construtor da classe 
+*
+*@param code            Código do pedido
+*@param totalValue    Valor total do pedido
+*/
+/**
+* Calcula as taxas de acordo com o valor total do pedido. Se o pedido for mair que 100, cobra taxa.
+*
+*@return Valor total do pedido com as taxas
+*@throws RuntimeException Se o valor do pedido for negativo
+*/
+
+entrar no diretório
+usar: javadoc -d javadoc/ -sourcepath src/ -subpackages com.dio
+
+COMUNIDADE JAVA
+
+O tamanho da comunidade auxilia na escolha de uma linguagem de programação de uma empresa
+Qualidade e facilidade para encontrar informações, diminuem a curva de aprendizado
+Atualmente existem comunidade de texnologias onde é possível encontrar
+um grupo voltado para a linguagem
+Comunidades:
+OpenSanca - opensanca.com.br
+SouJava - soujava.org.br
+DevOpsPBS - devopspbs.org
+Carreira:
+Muitas empresas de tecnologia aplicam a carreira em "Y"
+É importante se especializar em uma área: backend, frontend, SRE(site reliability engineering),
+data enfinner, etc.
+Escolher e focar em uma plataforma de desenvolvimento Java: web, desktop, mobile
+Mercado atual:
+Atualmente mercado para profissionais está em alta
+O mercado está carente de profissionais qualificados
+Startups de diversos ramos adotaram a linguagem Java:
+PagSeguro, iFood, AWS, Mercado Livre, Itaú, C6 Bank, Dafiti, Luizalabs, etc 
+Requisitos do profissional:
+Ao evoluir na carreira de Java, ou em qualquer outra, é necessário
+desenvolver tanto Soft Skills, quanto Hard Skills
+Cada vez mais Soft Skills estão se tornando mais prioritárias que Hard Skills
+Exemplos de Soft Skills:
+Resolução de Problemas Complexos
+Pensamento Crítico
+Criatividade
+Gestão de Pessoas
+Coordenação em equipe
+Liderança
+Exemplos de Hard Skills:
+Spring Boot
+Spring Cloud
+Apache Kafka
+RabbitMQ
+Arquitetura Cloud
+Banco de dados relacinal e não relacional
