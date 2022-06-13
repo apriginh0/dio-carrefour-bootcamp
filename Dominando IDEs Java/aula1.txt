@@ -1,0 +1,34 @@
+Java é uma linguagem de programaçào orientada a objetos, desenvolvida na década de 90,
+na empresa Sun Microsystems e posteriormente adquirida pela Oracle, em 2008
+Desde seu lançamente, em maio de 1995, a plataforma Java foi adotada mais rapidamente do que
+qualquer outra linguagem de programação na história da computação
+Tornou-se popular pelo seu uso na internet e está presente em navegadores, programas e jogos de
+computador, celular, calculadoras, etc...
+
+CARACTERÍSTICAS DO JAVA
+
+Diferente das linguagens de programação compiladas(a compilação do código se dá ainda em
+tempo de desenvolviment), a linguagem Java é compilada para um bytecode que é interpretado
+por uma máquina virtual(JVM).
+
+Plataforma x Linguagem
+A linguagem de programação Java é a linguagem convencional da Plataforma Java, mas não é
+a sua única linguagem
+Uma grande vantagem da plataforma é a de não estar presa a um único sistema operacional ou
+hardware, pois seus programas rodam através de uma máquina virtual que pode ser emulada
+
+Fases da execução Java
+Escrevemos o seu código-fonte(arquivo com a extensão .java)
+Utilizamos o JDK para compilar o seu código-fonte e gerar o arquivo bytecode(arquivo com
+a extensão .class)
+Para executar o seu programa, a JVM lê o arquivo compilado(.class) e as bibliotecas padrões
+do Java que estão no JRE
+
+JDK x JRE
+JDK - é o kit de Desenvolvimento Java responsável por compilar código-fonte em bytecode
+JVM - é a Máquina Virtual do Java, responsável por executar o bytecode
+JRE - Ambiente de execução do Java, que fornece as bibliotecas padrões de Java para o JDK 
+compilar seu código e o JVM executar seu programa
+
+IDEs = Eclipse, IntelliJ IDEA, NetBeans, e outros
+
