@@ -1,0 +1,29 @@
+O que é uma variável?
+Um espaço na memória do computador, onde se pode guardar valores
+existem 4 tipos:
+Instância - Objeto
+Classe - classe
+Local - dentro de métodos
+Parâmetro - Na assinatura do método
+
+Padrão de definição:
+<?visibilidade?> <?modificador?> tipo nome <?=valorIncial?>;
+V: public, protected r private
+M: static e final
+T: tipo de dado
+N: nome que é fornecido à variável
+VI: um valor inicial, caso se deseje
+
+Convenções e regras
+Não devem começar com números
+Embora permitido, $ e _ devem ser evitados
+São case-sensitive(diferença entre maiúscula e minúscula)
+Sem espaços
+Não podem ser as palavras reservadas
+
+Boas práticas
+Sempre começar com minúscula
+Nomes expressivos
+Notação camelo
+Quando constante(final) maiúscula e separada por "_"
+

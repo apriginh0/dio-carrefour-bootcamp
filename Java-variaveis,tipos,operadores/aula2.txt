@@ -1,0 +1,24 @@
+O que são Tipos de Dados?
+São os valores e, consequentemente, operações que as variáveis podem assumir e sofrer, respectivamente
+tipificação:
+Estática(forte) vs Dinâmica(fraca)
+Primitivo vs Composto
+Opções de tipos:
+Textual
+Numeral
+Lógico
+Objeto
+
+float(f) - ou seja, float f = 2.43f
+double(d) - ou seja, double d = 2.43d
+
+Boas práticas
+Usar de forma adequada cada tipo de dado para cada informação
+
+Valores suportados
+byte: -128 até 127
+short: -32768 até 32767
+int: -2147483648 até 2147483647
+long: -9223372036854775808 até 9223372036854775807
+float: 32 bytes
+double: 64 bytes 

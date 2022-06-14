@@ -1,0 +1,16 @@
+O que são Operadores Aritmético?
+São símbolos especiais quais são capazes de realizar ações específicas em um, dois ou mais
+operandos e, em seguida, retornar um resultado.
+Tipos:
+pós-fixado: exp++ ou exp--
+prefixado: ++exp ou --exp
+aritmético: =, +=, -=, *=, /= e %=
+Esta também é a ordem de Precedência
+
+CONVERSÕES(casting)
+O que é?
+É a transformação de uma determianda variável de tipo menos específico para um tipo mais
+específico ou vice-versa
+Tipos:
+Upcast(implícito)
+Downcast(explícito)

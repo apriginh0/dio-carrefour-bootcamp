@@ -1,0 +1,51 @@
+O que é um métodos?
+É uma porção de código(sub-rotina) que é disponibilizado por uma classe
+Este é executado quando é feita uma requisição a ele
+São responsáveis por definir e realizar um determinado comportamento
+
+Padrão de definição:
+<?visibilidade?> <?tipo?> <?modificador?> retorno nome(<?parâmetro?>) <?exceções?> corpo
+Criação, onde:
+V_: public, protected ou private
+T: concreto ou abstrato
+M: static ou final
+R_: tipo de dado ou void
+N_: nome que é fornecido ao método
+P:_ parâmetros que pode receber
+E: exceções quem pode lançar
+C_: código que possui ou vazio
+
+public static R N(P) {...}
+
+Utilização: Passa-se uma mensagem através de uma classe ou objeto
+nome_da_classe.nome_do_metodo(); ou nome_da_classe.nome_do_metodo(parâmetro);
+nome_do_objeto.nome_do_metodo(); ou nome_do_objeto.nome_do_metodo(parâmetro);
+Math.random(); ou Math.sqrt(4);
+usuario.getEmail(); ou usuario.alterarEndereco(endereco)
+
+PARTICULARIDADES
+Assinatura: é a forma de identificar unicamente o método
+Ass = nome + parâmetros
+Método:
+public double calcularTotalVenda(double precoItem1,
+double precoItem2, double precoItem3) {...}
+Assinatura:
+calcularTotalVenda(double precoItem1,
+double precoItem2, double precoItem3)
+
+Construtor e Destrutor: são métodos especiais usados na Orientação a Objetos
+Mensagem: é o ato de solicitar ao método que o mesmo execute.
+Esta pode ser direcionada a um objeto ou a uma classe
+
+Passagem de parâmetros:
+Por valor(cópia)
+Por referência(endereço)
+
+BOAS PRÃTICAS
+
+Nomes devem ser descritivos, mas curtos
+Notação camelo
+verificarSaldo(); executarTransferencia(...); existeDebito()
+Deve possuir entre 80 e 120 linhas
+Evite lista de parâmetros longas
+Visibilidades adequadas
