@@ -49,3 +49,25 @@ verificarSaldo(); executarTransferencia(...); existeDebito()
 Deve possuir entre 80 e 120 linhas
 Evite lista de parâmetros longas
 Visibilidades adequadas
+
+SOBRECARGA
+
+É a capacidade de definir métodos para diferentes contextos, mas preservando o seu nome
+Criação:
+Alterar a assinatura do método - Ass = nome + parâmetros
+ConverterParaInteiro(float f);
+ConverterParaInteiro(double d);
+ConverterParaInteiro(float f, RoundType rd);
+
+RETORNO
+É uma instrução de interrupção
+Simbologia: return
+O método executa seu retorno quando:
+Completa todas suas instruções internas
+Chega a uma declaração explicita de retorno
+Lança uma exceção 
+
+O tipo de retorno do método é definido na sua crianção e pode ser um tipo primitivo ou objeto
+O tipo de dado do return dever compatível com o do método
+Se o método for sem retorno(void), pode ou não ter um "return" para encerrar sua execução  
+
