@@ -1,0 +1,63 @@
+OPERADORES RELACIONAIS
+São símbolos especiais que são capazes de realizar comparação entre determinados operandos
+e, em seguida, retornar um resultado
+Tipos:
+Similaridade = igual, diferente
+Tamanho = maior, maior igual, menor, menor igual
+Similaridade:
+Igualdade = determina se o perando é igual ao outro
+Diferença = determina se um operando não é igual ao outro
+Símbologia - Igualdade == e Diferença !=
+Tamanho:
+Maior = determina se um operando é maior do que outro
+Maior igual = determina se um operando é maior ou igual a outro
+Símbologia - Maior > e Maior igual >=
+Menor = determina se um operando é menor do que outro
+Menor igual = determina se um operando é menor ou igual a outro
+Símbologia Menor < e Menor igual <=
+
+OPERADORES LÓGICOS
+São símbolos especiais que são capazes de realizar comparação lógica entre operandos lógicos ou 
+expressões e, em seguida, retornar um resultado
+Tipos:
+Conjunção - Operação lógica que só é verdade quando ambos os operadondos ou
+expressões envolvidas são verdadeiros - &&
+Disjunção - Operação que só é falsa quando ambos os operandos ou expressões
+envolvidas são falsos - || 
+Disjunção exclusiva - Operação que só é verdade quando ambos os operandos ou
+expressões são opostos - ^
+Negação - Operação que inverte o valor lógico de um operando ou expressão - !
+Boas Práticas:
+Criar variáveis auxiliares para guardar resultados intermediários
+(salarioMensal < mediaSalario) && (quantidadeDependentes >= mediaDependentes)
+(salarioBaixo) && (muitoDependentes)
+boolean recebeAuxilio = (salarioBaixo) && (muitoDependentes)
+
+CONTROLE DE FLUXO
+São estruturas que tem a capacidade de direcionar o fluxo de execução do código
+Tipos:
+Decisão - estrutura que avalia uma condição booleana ou variável para direcionar o fluxo de execução
+if, if-else, if-else-if, switch, e operador ternário(condição ? true : false;)
+Repetição - for, while, do while
+Interrupção - break, continue e return
+Boas Práticas:
+Switch é para valores exatos e if para expressões booleanas
+Evitar usar o default do switch para "cases genéricos", é pra indicar valor "errado"
+Evitar o efeito "flecha" dos if's
+Evitar muitos if's aninhados
+Usar a boa prática da aula 2 para diminir o tamanho de if
+
+BLOCOS
+É um grupo de 0 ou mais códigos que trabalham em conjunto para executar uma operação
+Tipos:
+Locais - dentro de métodos - { ...}
+Estáticos - dentro de classes
+Instância - dentro de classes
+obs: chave só são necessárias se houver 2 ou mais linhas. Com uma linha não é necessita
+if(menorIdade)
+    DirecionarPaginaProibido
+
+
+CURIOSIDADE
+Operadores bitwise - & e |
+Operadores shift - ~, >>, >>>, <<
