@@ -1,0 +1,19 @@
+Linguagem C é de paradigma estruturado - Linux e Windows são feitos basicamente em linguagem C
+paradigma Estruturado tem uma representação mais simplista
+                                      foca em operações(funções) e dados
+                                      foca mais no "como fazer"
+
+paradigma Orientado a Objeto tem uma representaçãomais realista
+                                      foca na modelagem de entidades e nas interações entre estas
+                                      foca mais no "o que fazer"
+Vantagens da P.O.O.
+Melhor coesão, Melhor acoplamento, Diminuição do Gap semântico, Coletor de lixo
+
+Definição de P.O.O.
+"A orientação a Objetos é um paradigma de análise, projeto e programação de sistemas de
+software, chamadas de Objetos."
+Fundamentos de P.O.O.
+Abstração: Processo pelo qual se isolam características de um objeto, considerando os
+que tenham em comum certos grupos de objetos.
+Reuso: Capacidade de criar novas unidades de código a partir de outras já existentes.
+Encapsulamento: Capacidadede esconder complexidades e proteger dados.
