@@ -1,9 +1,15 @@
-public class Carro {
+package one.digital.poo;
+
+class Carro {
     String cor;            // São atributos
     String modelo;
-    double capacidadeDoTanque;
+    int capacidadeDoTanque;
 
-    carro(String cor, String modelo, double capacidadeDoTanque) {
+    Carro() {
+
+    }
+
+    Carro(String cor, String modelo, int capacidadeDoTanque) {
         this.cor = cor;    //método especial - Construtor
         this.modelo = modelo;
         this.capacidadeDoTanque = capacidadeDoTanque;
@@ -21,10 +27,10 @@ public class Carro {
     String getModelo() {
         return modelo;
     }
-    void setCapacidadeDoTanque(double capacidadeDoTanque) {
+    void setCapacidadeDoTanque(int capacidadeDoTanque) {
         this.capacidadeDoTanque = capacidadeDoTanque;
     }
-    double getCapacidadeDoTanque() {
+    int getCapacidadeDoTanque() {
         return capacidadeDoTanque;
     }
     double totalValorTanque(double valorCombustivel) {

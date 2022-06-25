@@ -1,0 +1,7 @@
+Estudar mais a frente
+
+Instância x Estático: atributos e métodos
+Estado de um Objeto
+Identidade de um Objeto
+Representação numérica de um objeto
+Representação padrão de um objeto
