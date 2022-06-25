@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="703d8f6d-cb6c-42db-8dd7-6f0cb3207206" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/one/digital/poo/Aluno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/one/digital/poo/Compra.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/one/digital/poo/Cupom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/one/digital/poo/Disciplina.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/one/digital/poo/Endereco.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/one/digital/poo/Pessoa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../heranca/src/one/digital/poo/Caminhao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../heranca/src/one/digital/poo/Carro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../heranca/src/one/digital/poo/Moto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../heranca/src/one/digital/poo/Veiculo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../polymorphismSubscript/src/one/digital/poo/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../polymorphismSubscript/src/one/digital/poo/ClasseFilha1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../polymorphismSubscript/src/one/digital/poo/ClasseFilha2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../polymorphismSubscript/src/one/digital/poo/ClasseMae.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../updowncast/src/one/digital/poo/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../updowncast/src/one/digital/poo/Faxineiro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../updowncast/src/one/digital/poo/Funcionario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../updowncast/src/one/digital/poo/Gerente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../updowncast/src/one/digital/poo/Vendedor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aula3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../aula3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POO/src/one/digital/poo/Carro.java" beforeDir="false" afterPath="$PROJECT_DIR$/../POO/src/one/digital/poo/Carro.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2B52S4E4GyJq6dZ1QzGa1DYj70F" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="703d8f6d-cb6c-42db-8dd7-6f0cb3207206" name="Changes" comment="" />
+      <created>1656181622931</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1656181622931</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

@@ -3,7 +3,7 @@ package one.digital.poo;
 class Carro {
     String cor;            // São atributos
     String modelo;
-    int capacidadeDoTanque;
+    double capacidadeDoTanque;
 
     Carro() {
 
@@ -27,14 +27,14 @@ class Carro {
     String getModelo() {
         return modelo;
     }
-    void setCapacidadeDoTanque(int capacidadeDoTanque) {
+    void setCapacidadeDoTanque(double capacidadeDoTanque) {
         this.capacidadeDoTanque = capacidadeDoTanque;
     }
-    int getCapacidadeDoTanque() {
+    double getCapacidadeDoTanque() {
         return capacidadeDoTanque;
     }
     double totalValorTanque(double valorCombustivel) {
-        return capacidadeDoTanque = valorCombustivel;
+        return capacidadeDoTanque * valorCombustivel;
     }
 
     /*
