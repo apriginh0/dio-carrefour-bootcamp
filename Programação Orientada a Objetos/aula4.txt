@@ -1,0 +1,23 @@
+PACOTES
+São uma organização física ou lógica criada para separar classes com responsabilidades distintas.
+Com isso, espera-se que a aplicação fique mais organizada e seja possível separar classes de
+finalidades e representatividades diferentes
+package ... ; import ... ;
+
+VISIBILIDADES
+Também são chamdas de modificadores de acesso
+Um modificador de acesso tem como finalidade determinar até que ponto uma classe, atributo ou
+método pode ser usado. Utilização de modificadores de acesso é fundamental para o uso efetivo da
+Orientação a Objetos. Algumas boas práticas e conceitos só são atingidos com o uso correto deles.
+Tipos: Private, Protected e Public
+Private: Só dentro da Classe - private int i;  private void do();
+Protected: Dentro da classe, mesmo pacote e subclasses - protected int i;  protected void do();
+Public: Em qualquer lugar - public int i;  public void do();
+
+PROXIMOS PASSOS
+
+Padrões de Projeto(Desing Patterns)
+Boas práticas: SOLID, código, tecnicas de programação, etc.
+Refatoração
+UML
+Frameworks
